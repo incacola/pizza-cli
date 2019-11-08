@@ -2,15 +2,19 @@
   "name": "pizza",
   "version": "1.0.0",
   "description": "",
+  "preferGlobal": true,
   "main": "./lib/greet.js",
   "bin": {
-      "greet": "./bin/index.js"
+    "pizza-shop": "./bin/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^2.4.2",
     "colors": "^1.4.0",
+    "commander": "^4.0.0",
+    "inquirer": "^7.0.0",
     "lodash": "^4.17.15"
   }
 }
