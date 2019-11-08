@@ -1,0 +1,16 @@
+{
+  "name": "pizza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/greet.js",
+  "bin": {
+      "greet": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "lodash": "^4.17.15"
+  }
+}
